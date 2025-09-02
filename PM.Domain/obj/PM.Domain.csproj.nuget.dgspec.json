@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\PM.Domain\\PM.Domain.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Backend\\PM.Domain\\PM.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\PM.Domain\\PM.Domain.csproj": {
+    "C:\\Users\\User\\source\\repos\\Backend\\PM.Domain\\PM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\PM.Domain\\PM.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Backend\\PM.Domain\\PM.Domain.csproj",
         "projectName": "PM.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\PM.Domain\\PM.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Backend\\PM.Domain\\PM.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\PM.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Backend\\PM.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

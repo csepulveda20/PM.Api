@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Presentation", "PM.Presentation.csproj", "{EAD44EF7-47EF-4D0E-B138-828E89760977}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Presentation", ".\PM.Api\PM.Presentation.csproj", "{EAD44EF7-47EF-4D0E-B138-828E89760977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Domain", "..\PM.Domain\PM.Domain.csproj", "{555634A8-115A-483F-8F33-B5930B4E2A0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Domain", ".\PM.Domain\PM.Domain.csproj", "{555634A8-115A-483F-8F33-B5930B4E2A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Application", "..\PM.Application\PM.Application.csproj", "{9DE81B0D-C402-4DA0-A4AB-454C34E6A069}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Application", ".\PM.Application\PM.Application.csproj", "{9DE81B0D-C402-4DA0-A4AB-454C34E6A069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Infrastructure", "..\PM.Infrastructure\PM.Infrastructure.csproj", "{A7FAC4A7-86D4-4A6D-AE0E-12D43DDDA831}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Infrastructure", ".\PM.Infrastructure\PM.Infrastructure.csproj", "{A7FAC4A7-86D4-4A6D-AE0E-12D43DDDA831}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,12 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EAD44EF7-47EF-4D0E-B138-828E89760977} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{555634A8-115A-483F-8F33-B5930B4E2A0E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{9DE81B0D-C402-4DA0-A4AB-454C34E6A069} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{A7FAC4A7-86D4-4A6D-AE0E-12D43DDDA831} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D361C549-325D-403A-B3BB-91C66F9B94B0}

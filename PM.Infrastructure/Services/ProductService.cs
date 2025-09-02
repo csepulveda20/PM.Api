@@ -19,12 +19,12 @@ namespace PM.Infrastructure.Services
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IEnumerable<Product>> ListAsync(QueryParam queryParam, string? categoryId = null, bool? isActive = null)
+        public async Task<IEnumerable<Product>> ListAsync(QueryParam queryParam, int? categoryId = null, bool? isActive = null)
         {
             var query = _context.Products.AsQueryable();
             if (!string.IsNullOrEmpty(queryParam.Search))
                 query = query.Where(p => p.Name.Contains(queryParam.Search) || p.Sku.Contains(queryParam.Search));
-            if (!string.IsNullOrEmpty(categoryId))
+            if (categoryId != null)
                 query = query.Where(p => p.CategoryId == categoryId);
             if (isActive.HasValue)
                 query = query.Where(p => p.IsActive == isActive);
@@ -62,7 +62,7 @@ namespace PM.Infrastructure.Services
             }
         }
 
-        public async Task UpdateAsync(string id, string sku, string name, string description, decimal price, string categoryId)
+        public async Task UpdateAsync(string id, string sku, string name, string description, decimal price, int categoryId)
         {
             await _unitOfWork.BeginTransactionAsync();
             try

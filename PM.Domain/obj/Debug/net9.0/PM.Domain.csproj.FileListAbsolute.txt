@@ -9,3 +9,16 @@ C:\Users\User\source\repos\PM.Domain\obj\Debug\net9.0\PM.Domain.dll
 C:\Users\User\source\repos\PM.Domain\obj\Debug\net9.0\refint\PM.Domain.dll
 C:\Users\User\source\repos\PM.Domain\obj\Debug\net9.0\PM.Domain.pdb
 C:\Users\User\source\repos\PM.Domain\obj\Debug\net9.0\ref\PM.Domain.dll
+C:\Users\User\source\repos\Backend\PM.Domain\bin\Debug\net9.0\PM.Domain.deps.json
+C:\Users\User\source\repos\Backend\PM.Domain\bin\Debug\net9.0\PM.Domain.dll
+C:\Users\User\source\repos\Backend\PM.Domain\bin\Debug\net9.0\PM.Domain.pdb
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.sourcelink.json
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.dll
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\refint\PM.Domain.dll
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.pdb
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\ref\PM.Domain.dll
+C:\Users\User\source\repos\Backend\PM.Domain\obj\Debug\net9.0\PM.Domain.csproj.AssemblyReference.cache

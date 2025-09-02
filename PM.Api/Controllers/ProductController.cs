@@ -84,7 +84,7 @@ namespace PM.Presentation.Controllers
     public class ProductSearchRequest
     {
         public string Search { get; set; }
-        public string? CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         public bool? IsActive { get; set; }
         public string Sort { get; set; }
         public int Page { get; set; } = 1;
@@ -96,7 +96,7 @@ namespace PM.Presentation.Controllers
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public string? CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         public bool? IsActive { get; set; }
     }
     public class ProductUpdateRequest
@@ -105,7 +105,7 @@ namespace PM.Presentation.Controllers
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public string CategoryId { get; set; }
+        public int CategoryId { get; set; }
     }
     public class ToggleRequest
     {

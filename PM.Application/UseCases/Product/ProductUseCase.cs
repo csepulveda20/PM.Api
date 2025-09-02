@@ -15,7 +15,7 @@ namespace PM.Application.UseCases.Product
             _repo = repo;
         }
 
-        public async Task<PaginateResponse<Entity.Product>> ListAsync(QueryParam queryParam, string? categoryId = null, bool? isActive = null)
+        public async Task<PaginateResponse<Entity.Product>> ListAsync(QueryParam queryParam, int? categoryId = null, bool? isActive = null)
         {
             var items = await _repo.ListAsync(queryParam, categoryId, isActive);
             // Para el total, ejecuta la consulta sin paginación
@@ -34,7 +34,7 @@ namespace PM.Application.UseCases.Product
             await _repo.CreateAsync(product);
         }
 
-        public async Task UpdateAsync(string id, string sku, string name, string description, decimal price, string categoryId)
+        public async Task UpdateAsync(string id, string sku, string name, string description, decimal price, int categoryId)
         {
             await _repo.UpdateAsync(id, sku, name, description, price, categoryId);
         }
